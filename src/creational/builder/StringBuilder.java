@@ -5,7 +5,7 @@ public class StringBuilder {
 
     public static void main(String[] args) {
         java.lang.StringBuilder sb = new java.lang.StringBuilder();
-        String[] words = {"elma", "armut", "peynir", "toğurt"};
+        String[] words = {"apple", "pineapple", "cheese", "yoghurt"};
         sb.append("<ul>\n");
         for(String word:words)
         {
